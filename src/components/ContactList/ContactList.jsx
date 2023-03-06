@@ -8,7 +8,7 @@ export const ContactList = ({ contacts, deleteContact, filter }) => {
   );
   return (
     <>
-      {contacts.length === 0 ? (
+      {contacts.length === ' ' ? (
         Report.info('Phonebook Info', 'Contact book is empty!', 'Okay')
       ) : (
         <ul className={style.list}>
